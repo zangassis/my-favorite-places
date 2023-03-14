@@ -1,4 +1,4 @@
-# MY favorite places 🌄
+# My favorite places 🌄
 
 # Creating a Beautiful ASP.NET Core application
 
