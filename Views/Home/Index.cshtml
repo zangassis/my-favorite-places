@@ -1,0 +1,16 @@
+﻿@model IEnumerable<MyFavoritePlaces.Models.PlaceCollectionItem>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="page-title">
+    <PageTitle>My favorite places 🌄</PageTitle>
+</div>
+<div class="place-columns">
+    @foreach (var item in Model)
+    {
+        @Html.Partial("_PlaceCard", item)
+        ;
+    }
+</div>
